@@ -1,38 +1,109 @@
-.App {
+.users_container{
+  background-color: black;
+  min-height: 100vh;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Choice{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  background-color: black;
+  height: 300px;
+  width: 300px;
+  margin: 10px;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 5px 23px 9px rgba(120,240,8,1);
+-moz-box-shadow: 0px 5px 23px 9px rgba(120,240,8,1);
+box-shadow: 0px 5px 23px 9px rgba(120,240,8,1);
 }
 
-.App-link {
-  color: #61dafb;
+
+.user_btn{
+  display: flex;
+  height: 100px;
+  width: 100px;
+  margin: 5px;
+  border: none;
+  
+-webkit-box-shadow: -1px 4px 7px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 4px 7px -1px rgba(0,0,0,0.75);
+box-shadow: -1px 4px 7px -1px rgba(0,0,0,0.75);
+}
+.user_btn img{
+  height: 100px;
+  width: 100px;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.user_btn img:hover{
+  -webkit-box-shadow: -1px 10px 7px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 10px 7px -1px rgba(0,0,0,0.75);
+box-shadow: -1px 10px 7px -1px rgba(0,0,0,0.75);
 }
+.overlay{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  background-color: #eaeaea0c;
+  width: 100%;
+  z-index: 1;
+}
+
+.result{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #151515e6;
+  color: yellow;
+  height: 300px;
+  width: 100%;
+  position: fixed;
+  z-index: 20;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+}
+
+.txt_yellow{
+  color: yellow;
+  text-shadow: 0px 8px 2px rgb(97 111 13 / 56%);
+}
+
+.new_game_btn{
+  padding: 20px;
+    width: 200px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    font-size: 1.6rem;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background: -webkit-linear-gradient(#673AB7, #FFEB3B);
+    color: yellow;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+.new_game_btn:hover{
+  background: -webkit-linear-gradient(#e0f000, #3300c0);
+  -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.mobile{
+  display: flex;
+  justify-content: center;
+}
+
+
+/* .mobile{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+} */
