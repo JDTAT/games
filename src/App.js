@@ -169,7 +169,7 @@ const App = () => {
                 <div className="Choice">
                   {loading ?
                     <div >
-                      <h1 className="txt_yellow" >Loading...</h1>
+                      <h1 className="txt_yellow mb_size" >Loading...</h1>
                        </div>
                     : !!computerChoice ?
                       <img src={compImage} height="100%" width="100%" style={{ borderRadius: "20px" }} /> :
@@ -187,7 +187,7 @@ const App = () => {
 
                     {!!gameResult && gameResult === USER_WIN ?
                       <div>
-                        <img src={winImg} />
+                        <img src={winImg} className="congoImg"/>
                         <h2>You won !</h2>
                       </div>
                       : null}
