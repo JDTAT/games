@@ -2,6 +2,8 @@
   background-color: black;
   min-height: 100vh;
   text-align: center;
+  background-image: url('./backImg.gif');
+  background-size: cover;
 }
 
 
