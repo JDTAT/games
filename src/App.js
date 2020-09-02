@@ -135,7 +135,7 @@ const App = () => {
                 <div style={{ textAlign: "center" }}>
                   <div>
                     <img src={userImg} height="60px" width="60px" style={{ borderRadius: "50%" }} />
-                    <h3 style={{ color: "gray" }}>{UWinCouter}</h3>
+                    <h3 style={{ color: "gray" }}> Score :&nbsp;{UWinCouter}</h3>
                   </div>
                 </div >
                 <div className="Choice">
@@ -158,12 +158,12 @@ const App = () => {
                   </div>
                 </div>
             </div>
-            <div className="mobile">
+            <div>
               <div>
                 <div style={{ textAlign: "center" }}>
                   <div>
                     <div><img src={compImg} height="60px" width="60px" style={{ borderRadius: "50%" }} /></div>
-                    <h3 style={{ color: "gray" }}>{CWinCouter}</h3>
+                    <h3 style={{ color: "gray" }}>Score :&nbsp;{CWinCouter}</h3>
                   </div>
                 </div>
                 <div className="Choice">
