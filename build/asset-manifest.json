@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/interviewproblems/static/css/main.076025a8.chunk.css",
+    "main.js": "/interviewproblems/static/js/main.fc9e4cfc.chunk.js",
+    "main.js.map": "/interviewproblems/static/js/main.fc9e4cfc.chunk.js.map",
+    "runtime-main.js": "/interviewproblems/static/js/runtime-main.4413e36c.js",
+    "runtime-main.js.map": "/interviewproblems/static/js/runtime-main.4413e36c.js.map",
+    "static/js/2.5986d468.chunk.js": "/interviewproblems/static/js/2.5986d468.chunk.js",
+    "static/js/2.5986d468.chunk.js.map": "/interviewproblems/static/js/2.5986d468.chunk.js.map",
+    "index.html": "/interviewproblems/index.html",
+    "precache-manifest.71a66fd217bc5f2f08676f244aa76584.js": "/interviewproblems/precache-manifest.71a66fd217bc5f2f08676f244aa76584.js",
+    "service-worker.js": "/interviewproblems/service-worker.js",
+    "static/css/main.076025a8.chunk.css.map": "/interviewproblems/static/css/main.076025a8.chunk.css.map",
+    "static/js/2.5986d468.chunk.js.LICENSE.txt": "/interviewproblems/static/js/2.5986d468.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/interviewproblems/static/media/backImg.317fa516.gif",
+    "static/media/congo.gif": "/interviewproblems/static/media/congo.ca20cf88.gif",
+    "static/media/draw.gif": "/interviewproblems/static/media/draw.c62307e4.gif",
+    "static/media/jd.jpg": "/interviewproblems/static/media/jd.f95978f3.jpg",
+    "static/media/paper.gif": "/interviewproblems/static/media/paper.d45e6c5a.gif",
+    "static/media/scissors.gif": "/interviewproblems/static/media/scissors.afe5886c.gif",
+    "static/media/stone.gif": "/interviewproblems/static/media/stone.fbb453e4.gif",
+    "static/media/user.jpg": "/interviewproblems/static/media/user.7e719be7.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4413e36c.js",
+    "static/js/2.5986d468.chunk.js",
+    "static/css/main.076025a8.chunk.css",
+    "static/js/main.fc9e4cfc.chunk.js"
+  ]
+}
