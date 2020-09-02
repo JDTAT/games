@@ -1,6 +1,6 @@
 {
-  "name": "interviewproblems",
-  "homepage": "http://JDTAT.github.io/interviewproblems",
+  "name": "games",
+  "homepage": "http://JDTAT.github.io/games",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
